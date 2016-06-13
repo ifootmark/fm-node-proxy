@@ -1,0 +1,46 @@
+{
+  "name": "fm-node-proxy",
+  "version": "1.0.0",
+  "description": "fm-node-proxy component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "dev": "node ./lib/app.js"
+  },
+  "keywords": [
+    "fm-node-proxy",
+    "proxy"
+  ],
+  "homepage": "https://ifootmark.github.io/fm-node-proxy/",
+  "bugs": {
+    "url": "https://github.com/ifootmark/fm-node-proxy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifootmark/fm-node-proxy.git"
+  },
+  "author": "ifootmark@163.com",
+  "license": "MIT",
+  "bin": {
+    "fm-node-proxy": "./lib/app"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "http": "0.0.0",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+  },
+  "maintainers": [
+    {
+      "name": "ifootmark",
+      "email": "ifootmark@163.com"
+    }
+  ]
+}
