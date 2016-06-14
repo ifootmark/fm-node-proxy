@@ -1,6 +1,6 @@
 {
   "name": "fm-node-proxy",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "fm-node-proxy component",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "author": "ifootmark@163.com",
   "license": "MIT",
   "bin": {
-    "fm-node-proxy": "./lib/app"
+    "fm-node-proxy": "./lib/app.js"
   },
   "dependencies": {
     "gulp": "^3.9.1",

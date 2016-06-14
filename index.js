@@ -8,14 +8,13 @@ var proxy_prefix=!!fmconfig.proxy_prefix?fmconfig.proxy_prefix+"/":"",
     proxy_port=fmconfig.proxy_port;
 
 var proxy = {
-    proxy_start:function(){
+    start:function(){
         app.get('/'+proxy_prefix+'*', nodeproxy.proxy);
         app.post('/'+proxy_prefix+'*', nodeproxy.proxy);
 
         var server = app.listen(proxy_port, function () {
-            var host = server.address().address;
             var port = server.address().port;
-            console.log('Proxy listening at http://%s:%s', host, port);
+            console.log('Reverse Proxy listening at port %s', port);
         });
     }
 };
