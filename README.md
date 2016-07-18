@@ -52,7 +52,7 @@ proxy.start();
 可以看到：*Server listening on port 8080*
 
 访问：
-<a href="http://127.0.0.1:5000/api/proxy/?name=footmark&email=ifootmark@163.com" target="_blank">http://127.0.0.1:5000/api/proxy/?name=footmark&email=ifootmark@163.com</a>
+http://127.0.0.1:5000/api/proxy/?name=footmark&email=ifootmark@163.com
 
 运行结果：
 ```javascript
